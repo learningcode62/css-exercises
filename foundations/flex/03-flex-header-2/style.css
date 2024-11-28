@@ -51,15 +51,11 @@ ul {
   list-style-type: none;
   display: flex;
   padding: 0px;
+  margin: 0px;
   gap: 16px;
 }
 
-.left-header {
-  display: flex;
-  gap: 16px;
-}
-
-.right-header {
+.right-header, .left-header {
   display: flex;
   gap: 16px;
   align-items: center;
